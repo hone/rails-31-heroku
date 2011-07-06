@@ -1,0 +1,14 @@
+source "http://rubygems.org"
+
+<%= rails_gemfile_entry -%>
+
+<% if full? -%>
+<%= database_gemfile_entry -%>
+<% end -%>
+
+<% if mountable? -%>
+<%= javascript_gemfile_entry -%>
+<% end -%>
+
+# To use debugger
+# <%= ruby_debugger_gemfile_entry %>
