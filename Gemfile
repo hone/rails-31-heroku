@@ -1,13 +1,15 @@
 source 'http://rubygems.org'
 
-gem 'rails', :git => 'https://github.com/rails/rails.git', :branch => '3-1-stable'
-gem 'actionmailer', :git => 'https://github.com/rails/rails.git', :branch => '3-1-stable'
-gem 'actionpack', :git => 'https://github.com/rails/rails.git', :branch => '3-1-stable' 
-gem 'activemodel', :git => 'https://github.com/rails/rails.git', :branch => '3-1-stable' 
-gem 'activerecord', :git => 'https://github.com/rails/rails.git', :branch => '3-1-stable' 
-gem 'activeresource', :git => 'https://github.com/rails/rails.git', :branch => '3-1-stable' 
-gem 'activesupport', :git => 'https://github.com/rails/rails.git', :branch => '3-1-stable' 
-gem 'railties', :git => 'https://github.com/rails/rails.git', :branch => '3-1-stable' 
+gem 'rails', :path => 'vendor/bundle/ruby/1.9.1/bundler/gems/rails-afe8eb56ecd9'
+gem 'actionmailer', :path => 'vendor/bundle/ruby/1.9.1/bundler/gems/rails-afe8eb56ecd9'
+gem 'actionpack', :path => 'vendor/bundle/ruby/1.9.1/bundler/gems/rails-afe8eb56ecd9'
+gem 'activemodel', :path => 'vendor/bundle/ruby/1.9.1/bundler/gems/rails-afe8eb56ecd9'
+gem 'activerecord', :path => 'vendor/bundle/ruby/1.9.1/bundler/gems/rails-afe8eb56ecd9'
+gem 'activeresource', :path => 'vendor/bundle/ruby/1.9.1/bundler/gems/rails-afe8eb56ecd9'
+gem 'activesupport', :path => 'vendor/bundle/ruby/1.9.1/bundler/gems/rails-afe8eb56ecd9'
+gem 'railties', :path => 'vendor/bundle/ruby/1.9.1/bundler/gems/rails-afe8eb56ecd9'
+
+gem 'sprockets', :git => 'https://github.com/sstephenson/sprockets.git'
 
 
 # Bundle edge Rails instead:
