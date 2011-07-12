@@ -1,13 +1,13 @@
 source 'http://rubygems.org'
 
-gem 'rails', :path => 'vendor/bundle/ruby/1.9.1/bundler/gems/rails-afe8eb56ecd9'
-gem 'actionmailer', :path => 'vendor/bundle/ruby/1.9.1/bundler/gems/rails-afe8eb56ecd9'
-gem 'actionpack', :path => 'vendor/bundle/ruby/1.9.1/bundler/gems/rails-afe8eb56ecd9'
-gem 'activemodel', :path => 'vendor/bundle/ruby/1.9.1/bundler/gems/rails-afe8eb56ecd9'
-gem 'activerecord', :path => 'vendor/bundle/ruby/1.9.1/bundler/gems/rails-afe8eb56ecd9'
-gem 'activeresource', :path => 'vendor/bundle/ruby/1.9.1/bundler/gems/rails-afe8eb56ecd9'
-gem 'activesupport', :path => 'vendor/bundle/ruby/1.9.1/bundler/gems/rails-afe8eb56ecd9'
-gem 'railties', :path => 'vendor/bundle/ruby/1.9.1/bundler/gems/rails-afe8eb56ecd9'
+gem 'rails', :path => 'vendor/bundle/ruby/1.9.1/bundler/gems/rails-5c591e5c969a'
+gem 'actionmailer', :path => 'vendor/bundle/ruby/1.9.1/bundler/gems/rails-5c591e5c969a'
+gem 'actionpack', :path => 'vendor/bundle/ruby/1.9.1/bundler/gems/rails-5c591e5c969a'
+gem 'activemodel', :path => 'vendor/bundle/ruby/1.9.1/bundler/gems/rails-5c591e5c969a'
+gem 'activerecord', :path => 'vendor/bundle/ruby/1.9.1/bundler/gems/rails-5c591e5c969a'
+gem 'activeresource', :path => 'vendor/bundle/ruby/1.9.1/bundler/gems/rails-5c591e5c969a'
+gem 'activesupport', :path => 'vendor/bundle/ruby/1.9.1/bundler/gems/rails-5c591e5c969a'
+gem 'railties', :path => 'vendor/bundle/ruby/1.9.1/bundler/gems/rails-5c591e5c969a'
 
 gem 'sprockets', :git => 'https://github.com/sstephenson/sprockets.git'
 
